@@ -22,7 +22,7 @@ ENGINE_DIAGNOSTICS_URL = "https://api.volvocars.com/connected-vehicle/v2/vehicle
 VEHICLE_DIAGNOSTICS_URL = "https://api.volvocars.com/connected-vehicle/v2/vehicles/{0}/diagnostics"
 WARNINGS_URL = "https://api.volvocars.com/connected-vehicle/v2/vehicles/{0}/warnings"
 API_BACKEND_STATUS = "https://oip-dev-bff.euwest1.production.volvo.care/api/v1/backend-status"
-BATTERY_TARGET_LEVEL = "https://api.volvocars.com/energy/v1/vehicles/{v0}/recharge-status/target-battery-charge-level"
+BATTERY_TARGET_LEVEL = "https://api.volvocars.com/energy/v1/vehicles/{0}/recharge-status/target-battery-charge-level"
 
 LENGTH_KILOMETERS = "km"
 SPEED_KILOMETERS_PER_HOUR = "km/h"
