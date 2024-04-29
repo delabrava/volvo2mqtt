@@ -134,7 +134,7 @@ supported_entities = [
                         {"name": "API Backend status", "domain": "sensor", "id": "api_backend_status", "icon": "alert"},
                         {"name": "Update Interval", "domain": "number", "id": "update_interval", "unit": "seconds", "icon": "timer", "min": -1, "max": 600, "mode": "box"},
                         {"name": "Warnings", "domain": "sensor", "id": "warnings", "icon": "alert", "url": WARNINGS_URL},
-                        {"name": "Battery target level", "domain": "sensor", "id": "battery_target_level", "icon": "battery_charge_level", "url": BATTERY_TARGET_LEVEL}
+                        {"name": "Battery target level", "domain": "sensor", "id": "battery_target_level", "icon": "battery_charge_level", "url": RECHARGE_STATE_URL}
 ]
 
 old_entity_ids = ["months_to_service", "service_warning_trigger", "distance_to_empty"]
